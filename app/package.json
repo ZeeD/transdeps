@@ -1,0 +1,27 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "license": "MIT",
+    "devDependencies": {
+        "brighterscript": "^0.56.0",
+        "ropm": "^0.10.8"
+    },
+    "scripts": {
+        "clean": "rm -rf out dist",
+        "start": "npm run clean && bsc --deploy"
+    },
+    "keywords": [
+        "ropm"
+    ],
+    "files": [
+        "dist",
+        "!**/roku_modules"
+    ],
+    "ropm": {
+        "rootDir": "src",
+        "packageRootDir": "dist"
+    },
+    "dependencies": {
+        "lib": "file:../lib/lib-1.0.0.tgz"
+    }
+}

@@ -1,0 +1,5 @@
+import "pkg:/source/roku_modules/lib/lib.brs"
+
+sub myappsub()
+    print lib.mylibfunction()
+end sub

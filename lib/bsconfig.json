@@ -1,0 +1,7 @@
+{
+    "rootDir": "src",
+    "stagingFolderPath": "dist",
+    "emitDefinitions": true,
+    "sourceMap": true,
+    "emitFullPaths": true
+}

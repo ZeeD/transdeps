@@ -1,0 +1,6 @@
+*_modules
+dist
+*.tgz
+.project
+.settings
+package-lock.json
